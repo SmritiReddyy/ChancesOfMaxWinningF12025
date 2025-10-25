@@ -1,5 +1,6 @@
 
 *Last updated: October 24, 2025*
+
 *I will add a new file with the new outputs after each race and recalcualte everything* 
 
 # F1 2025 Championship Predictor: Max Verstappen's Chances
