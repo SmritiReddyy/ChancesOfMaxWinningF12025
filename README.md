@@ -27,53 +27,6 @@ P3. Verstappen  306 points  (-40)
 
 **Races Remaining**: 5 regular races + 2 sprint races = 141 points available
 
-## Installation
-```bash
-# Clone the repository
-git clone https://github.com/SmritiReddyy/ChancesofMaxWinningF12025.git
-cd ChancesofMaxWinningF12025
-
-# Install required packages
-pip install numpy pandas matplotlib
-```
-
-## Usage
-
-### Basic Analysis
-```python
-from F1_Max import F1ChampionshipPredictor
-
-# Current standings
-current_standings = {
-    'Piastri': 346,
-    'Norris': 332,
-    'Verstappen': 306
-}
-
-# Initialize predictor
-predictor = F1ChampionshipPredictor(
-    standings=current_standings,
-    races_remaining=5,
-    sprint_races_remaining=2
-)
-
-# Run analysis for Verstappen
-predictor.analyze_scenarios(target_driver='Verstappen')
-```
-
-### Update After Each Race
-```python
-# After Mexico GP (example)
-new_standings = {
-    'Piastri': 364,    # Finished P2 (+18)
-    'Norris': 347,     # Finished P3 (+15)
-    'Verstappen': 331  # Won (+25)
-}
-
-predictor.update_standings(new_standings)
-predictor.update_races_remaining(races=4, sprints=2)
-predictor.analyze_scenarios(target_driver='Verstappen')
-```
 
 ## Key Findings
 
@@ -120,13 +73,7 @@ CHAMPIONSHIP MARGIN:
   Verstappen wins by: Piastri: +4, Norris: +21
 ```
 
-## Project Structure
-```
-ChancesofMaxWinningF12025/
-├── F1_Max.py              # Main predictor code
-├── README.md              # This file
-└── f1_all_scenarios.csv   # Generated output (all scenarios)
-```
+
 
 ## Technical Details
 
@@ -152,22 +99,12 @@ ChancesofMaxWinningF12025/
 | Qatar GP | Nov 30 | Yes |
 | Abu Dhabi GP | Dec 8 | No |
 
-## Contributing
 
 Feel free to fork this repository and submit pull requests for:
 - Enhanced prediction models
 - Track-specific adjustments
 - Improved visualization
 - Additional analysis features
-
-## Future Enhancements
-
-- [ ] Track-specific win probability adjustments
-- [ ] Weather impact modeling
-- [ ] Team strategy simulation
-- [ ] Historical performance analysis
-- [ ] Real-time updates via F1 API
-- [ ] Interactive web dashboard
 
 ## License
 
@@ -187,4 +124,4 @@ MIT License - feel free to use and modify for your own analysis!
 
 *Last updated: October 24, 2025*
 
-**Verdict**: Verstappen needs perfection. 5 wins out of 5. No room for error. 🏎️💨
+**Verdict**: Verstappen needs perfection. 5 wins out of 5. No room for error. 
