@@ -474,6 +474,4 @@ if __name__ == "__main__":
     # predictor.update_standings(new_standings)
     # predictor.update_races_remaining(races=4, sprints=2)
     # predictor.print_full_report()
-    #Just a test
-    # Test #2
-    
+ 
