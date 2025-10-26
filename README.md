@@ -52,34 +52,6 @@ Even if Max wins all 5 remaining races, he can still lose the championship if:
 - Piastri consistently finishes P2 behind him
 - The final margin could be as close as 3-4 points
 
-## Sample Output
-```
-VERSTAPPEN CHAMPIONSHIP ANALYSIS
-================================================================================
-
-Scenario 1:
---------------------------------------------------------------------------------
-RACE RESULTS (5 races):
-  Piastri         3xP2, 2xP3
-  Norris          2xP2, 3xP3
-  Verstappen      5xP1
-
-SPRINT RESULTS (2 sprints):
-  Piastri         1xP2, 1xP3
-  Norris          1xP2, 1xP3
-  Verstappen      2xP1
-
-FINAL CHAMPIONSHIP STANDINGS:
-  P1. Verstappen      447 points (+141 from current) <- CHAMPION
-  P2. Piastri         443 points (+97 from current)
-  P3. Norris          426 points (+94 from current)
-
-CHAMPIONSHIP MARGIN:
-  Verstappen wins by: Piastri: +4, Norris: +21
-```
-
-
-
 ## Technical Details
 
 ### Methodology
