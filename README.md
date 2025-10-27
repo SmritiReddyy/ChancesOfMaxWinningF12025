@@ -1,3 +1,8 @@
+
+*Last updated: October 24, 2025*
+
+*I will add a new file with the new outputs after each race and recalcualte everything* 
+
 # F1 2025 Championship Predictor: Max Verstappen's Chances
 
 A Python-based machine learning model to predict Max Verstappen's chances of winning the 2025 F1 World Championship using exhaustive scenario analysis and Monte Carlo simulation.
@@ -39,34 +44,6 @@ P3. Verstappen  306 points  (-40)
 ## Key Findings
 
 Based on current analysis (pre-Mexico GP):
-
-
-## Sample Output
-```
-VERSTAPPEN CHAMPIONSHIP ANALYSIS
-================================================================================
-
-Scenario 1:
---------------------------------------------------------------------------------
-RACE RESULTS (5 races):
-  Piastri         3xP2, 2xP3
-  Norris          2xP2, 3xP3
-  Verstappen      5xP1
-
-SPRINT RESULTS (2 sprints):
-  Piastri         1xP2, 1xP3
-  Norris          1xP2, 1xP3
-  Verstappen      2xP1
-
-FINAL CHAMPIONSHIP STANDINGS:
-  P1. Verstappen      447 points (+141 from current) <- CHAMPION
-  P2. Piastri         443 points (+97 from current)
-  P3. Norris          426 points (+94 from current)
-
-CHAMPIONSHIP MARGIN:
-  Verstappen wins by: Piastri: +4, Norris: +21
-```
-
 
 
 ## Technical Details
@@ -116,6 +93,5 @@ MIT License - feel free to use and modify for your own analysis!
 
 ---
 
-*Last updated: October 24, 2025*
 
 **Verdict**: Verstappen needs perfection. 5 wins out of 5. No room for error. 
