@@ -18,34 +18,28 @@ This project analyzes all possible race outcomes for the remainder of the 2025 F
 - **Detailed Breakdown**: Shows exact requirements for championship victory
 - **Winner Scenario Analysis**: Lists all specific scenarios where a driver wins
 
-## Current Situation (Pre-Mexico GP)
+## Current Situation (After Mexico) - 26th October
+```
+P1. Norris      357 points  
+P2. Piastri     356 points (-1)
+P3. Verstappen  321 points  (-36)
+```
+
+## Current Situation (After Austin GP) - 24th October 
+
 ```
 P1. Piastri     346 points
 P2. Norris      332 points  (-14)
 P3. Verstappen  306 points  (-40)
 ```
 
-**Races Remaining**: 5 regular races + 2 sprint races = 141 points available
+**Races Remaining**: 4 regular races + 2 sprint races = 116 points available
 
 
 ## Key Findings
 
 Based on current analysis (pre-Mexico GP):
 
-### Championship Probabilities
-- **Piastri**: 68.25% (86/126 scenarios)
-- **Norris**: 26.98% (34/126 scenarios)
-- **Verstappen**: 4.76% (6/126 scenarios)
-
-### Verstappen's Requirements
-- **Must win**: ALL 5 remaining races (100% win rate required)
-- **Sprint races**: Can win 0-2 sprints (optional with all race wins)
-- **Total scenarios**: Only 6 out of 126 possible scenarios result in Verstappen championship
-
-### Critical Insight
-Even if Max wins all 5 remaining races, he can still lose the championship if:
-- Piastri consistently finishes P2 behind him
-- The final margin could be as close as 3-4 points
 
 ## Sample Output
 ```

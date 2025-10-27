@@ -426,29 +426,29 @@ class F1ChampionshipPredictor:
         
         return df
 
-
-# =============================================================================
-# USAGE EXAMPLE - JUST CHANGE THESE VALUES!
-# =============================================================================
-
 if __name__ == "__main__":
-    # =========================================================================
-    # UPDATE THESE VALUES AFTER EACH RACE
-    # =========================================================================
+
+    # CHANGE THESE VALUES AFTER EACH RACE
+    # After Austin 
+    # current_standings = {
+    #     'Piastri': 346,
+    #     'Norris': 332,
+    #     'Verstappen': 306
+    # }
     
+    # races_remaining = 5  # Regular grand prix races left
+    # sprint_races_remaining = 2  # Sprint races left
+
+    # After Mexico 
+
     current_standings = {
-        'Piastri': 346,
-        'Norris': 332,
-        'Verstappen': 306
+        'Piastri': 356,
+        'Norris': 357,
+        'Verstappen': 321
     }
     
-    races_remaining = 5  # Regular grand prix races left
+    races_remaining = 4  # Regular grand prix races left
     sprint_races_remaining = 2  # Sprint races left
-    
-    # =========================================================================
-    # RUN ANALYSIS
-    # =========================================================================
-    
     predictor = F1ChampionshipPredictor(
         standings=current_standings,
         races_remaining=races_remaining,
@@ -461,17 +461,4 @@ if __name__ == "__main__":
     print("=" * 80)
     predictor.analyze_scenarios(target_driver='Verstappen')
     
-    # =========================================================================
-    # AFTER NEXT RACE - UPDATE AND RE-RUN
-    # =========================================================================
     
-    # Example: After Mexico GP, update like this:
-    # new_standings = {
-    #     'Piastri': 371,   # if he finished P2 (+18)
-    #     'Norris': 344,    # if he finished P4 (+12)
-    #     'Verstappen': 331 # if he won (+25)
-    # }
-    # predictor.update_standings(new_standings)
-    # predictor.update_races_remaining(races=4, sprints=2)
-    # predictor.print_full_report()
- 
