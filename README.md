@@ -1,5 +1,5 @@
 
-*Last updated: October 24, 2025*
+*Last updated: October 26th, 2025*
 
 *I will add a new file with the new outputs after each race and recalcualte everything* 
 
@@ -94,4 +94,4 @@ MIT License - feel free to use and modify for your own analysis!
 ---
 
 
-**Verdict**: Verstappen needs perfection. 5 wins out of 5. No room for error. 
+**Verdict**: Verstappen needs perfection. No room for error. 
