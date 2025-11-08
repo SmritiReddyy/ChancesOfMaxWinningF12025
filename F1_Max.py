@@ -1,5 +1,5 @@
 import numpy as np
-import pandas as pd # type: ignore
+import pandas as pd 
 from itertools import combinations_with_replacement
 import matplotlib.pyplot as plt
 from collections import defaultdict
@@ -441,14 +441,24 @@ if __name__ == "__main__":
 
     # After Mexico 
 
+    # current_standings = {
+    #     'Piastri': 356,
+    #     'Norris': 357,
+    #     'Verstappen': 321
+    # }
+    
+    # races_remaining = 4  # Regular grand prix races left
+    # sprint_races_remaining = 2  # Sprint races left
+
     current_standings = {
         'Piastri': 356,
-        'Norris': 357,
-        'Verstappen': 321
+        'Norris': 365,
+        'Verstappen': 326
     }
     
     races_remaining = 4  # Regular grand prix races left
-    sprint_races_remaining = 2  # Sprint races left
+    sprint_races_remaining = 1  # Sprint races left
+
     predictor = F1ChampionshipPredictor(
         standings=current_standings,
         races_remaining=races_remaining,
