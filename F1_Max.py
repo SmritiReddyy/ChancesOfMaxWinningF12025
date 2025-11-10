@@ -449,14 +449,22 @@ if __name__ == "__main__":
     
     # races_remaining = 4  # Regular grand prix races left
     # sprint_races_remaining = 2  # Sprint races left
+    
+    # After SaoPaolo Sprint
+    # current_standings = {
+    #     'Piastri': 356,
+    #     'Norris': 365,
+    #     'Verstappen': 326
+    # }
+    
+    # After SaoPaolo GP
 
     current_standings = {
-        'Piastri': 356,
-        'Norris': 365,
-        'Verstappen': 326
+        'Piastri': 366,
+        'Norris': 390,
+        'Verstappen': 341
     }
-    
-    races_remaining = 4  # Regular grand prix races left
+    races_remaining = 3  # Regular grand prix races left
     sprint_races_remaining = 1  # Sprint races left
 
     predictor = F1ChampionshipPredictor(
@@ -470,5 +478,4 @@ if __name__ == "__main__":
     print("VERSTAPPEN CHAMPIONSHIP ANALYSIS")
     print("=" * 80)
     predictor.analyze_scenarios(target_driver='Verstappen')
-    
     
